@@ -1,0 +1,19 @@
+project:
+  type: website
+  title: "Лаборатория Больших Случайных Систем"
+
+website:
+  description: "Сайт лаборатории для публикации статей, семинаров и материалов."
+  navbar:
+    left:
+      - text: "main"
+        href: index.qmd
+      - text: "Сотрудники"
+        href: staff.qmd
+      - text: "История"
+        href: history.qmd
+      - text: "Публикации"
+        href: publications.qmd
+      - text: "Спецкурсы"
+        href: courses.qmd
+
