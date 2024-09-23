@@ -1,6 +1,8 @@
 project:
   type: website
   title: "Лаборатория Больших Случайных Систем"
+  output-dir: docs
+
 
 website:
   description: "Сайт лаборатории для публикации статей, семинаров и материалов."
