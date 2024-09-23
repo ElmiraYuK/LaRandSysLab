@@ -8,12 +8,13 @@ website:
     left:
       - text: "main"
         href: index.qmd
-      - text: "Сотрудники"
-        href: staff.qmd
-      - text: "История"
-        href: history.qmd
-      - text: "Публикации"
-        href: publications.qmd
-      - text: "Спецкурсы"
-        href: courses.qmd
+      #- text: "Сотрудники"
+      #  href: staff.qmd
+      #- text: "История"
+      #  href: history.qmd
+      #- text: "Публикации"
+      #  href: publications.qmd
+      #- text: "Спецкурсы"
+      #  href: courses.qmd
+      
 
