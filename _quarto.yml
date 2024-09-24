@@ -1,6 +1,6 @@
 project:
   type: website
-  title: "Лаборатория Больших Случайных Систем"
+  title: "Страница семинара Лаборатории Больших Случайных Систем"
   output-dir: docs
 
 
@@ -8,7 +8,7 @@ website:
   description: "Сайт лаборатории для публикации статей, семинаров и материалов."
   navbar:
     left:
-      - text: "main"
+      - text: ""
         href: index.qmd
       #- text: "Сотрудники"
       #  href: staff.qmd
