@@ -19,12 +19,18 @@
 
 ## Осенний семестр 2024
 
-### 25 сентября (среда)
+### 02 октября (среда)
 **Докладчик:** Эльмира Калимулина (с.н.с., МГУ)  
-**Тема:** "????"  
+**Тема:** "Some Aspects of Research on Queuing Networks
+with Dynamic Structure"  
 **Время:** 18:30  
-**Аудитория:** 16-04     
-**Аннотация:**  ...
+**Аудитория:** 16-13     
+**Аннотация:**  This work examines specific models of queuing networks where the network
+structure evolves over time. The ergodicity of Jackson networks on random
+graphs is studied, along with the behaviour of these networks depending on
+the dynamics of their structure. Some well-known approaches are applied,
+and it is shown that similar results to classical ones can be obtained even
+under relaxed conditions.
 
 
 <!--- ### 23 сентября (понедельник)
