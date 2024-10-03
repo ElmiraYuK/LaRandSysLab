@@ -25,7 +25,28 @@
 with Dynamic Structure"  
 **Время:** 18:30  
 **Аудитория:** 16-13     
-**Аннотация:**  This work examines specific models of queuing networks where the network
+**Аннотация:**  
+<details>
+
+  <summary>Spoiler warning</summary>
+
+  
+
+  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
+
+  
+
+  ```javascript
+
+  console.log("I'm a code block!");
+
+  ```
+
+  
+
+</details>
+
+This work examines specific models of queuing networks where the network
 structure evolves over time. The ergodicity of Jackson networks on random
 graphs is studied, along with the behaviour of these networks depending on
 the dynamics of their structure. Some well-known approaches are applied,
