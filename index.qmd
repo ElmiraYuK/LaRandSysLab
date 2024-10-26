@@ -48,9 +48,9 @@
 **Аудитория:** 16-13 
 <details>
   <summary>Аннотация:</summary>
-  Доклад по материалам статьи ''The Motion of a Large Particle'' by Richard Holley. Transactions of the American Mathematical Society, Vol. 144 (Oct., 1969), pp. 523-
-534, https://www.jstor.org/stable/1995295.
-Accessed: 16-10-2024 15:54 UTC
+  Доклад по материалам статьи: 
+Richard Holley, The Motion of a Large Particle. Transactions of the American Mathematical Society, Vol. 144 (Oct., 1969), pp. 523-534, 
+[Ссылка на статью](https://www.jstor.org/stable/1995295).
 
 </details>     
 
