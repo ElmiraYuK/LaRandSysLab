@@ -414,8 +414,3 @@ with Dynamic Structure"
 **Формат:** Онлайн (Zoom)
 
 
-
-
-$$
-P(a \leq X \leq b) \approx P\left(\frac{a - np}{\sqrt{np(1 - p)}} \leq Z \leq \frac{b - np}{\sqrt{np(1 - p)}}\right),
-$$
