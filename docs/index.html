@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -574,6 +603,9 @@ This work examines specific models of queuing networks where the network structu
 <strong>Тема:</strong> “Динамические системы и Марковские цепи с нуля”<br>
 <strong>Время:</strong> 15:00<br>
 <strong>Формат:</strong> Онлайн (Zoom)</p>
+<p><span class="math display">\[
+P(a \leq X \leq b) \approx P\left(\frac{a - np}{\sqrt{np(1 - p)}} \leq Z \leq \frac{b - np}{\sqrt{np(1 - p)}}\right),
+\]</span></p>
 
 
 </section>
